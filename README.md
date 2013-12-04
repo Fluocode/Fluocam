@@ -25,7 +25,9 @@ Implementation
     import starling.extensions.fluocode.Fluocam;
     import starling.extensions.fluocode.FluocamControl;
 
-    var cam:Fluocam = new Fluocam(world,stage.stageWidth,stage.stageHeight, false, board.ct);
+    starling.simulateMultitouch = true;
+    
+    var cam:Fluocam = new Fluocam(world,stage.stageWidth,stage.stageHeight, false);
     addChild(cam);
     
 
