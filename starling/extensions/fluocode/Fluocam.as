@@ -302,17 +302,18 @@ package starling.extensions.fluocode{
 
 		
 		public function get minScale():Number { return fControl.minScale; }
-        public function set minScale(value:Number):void 
-        {
-            fControl.minScale = value;
-        }
-		public function get maxScale():Number { return fControl.maxScale; }
-        public function set maxScale(value:Number):void 
-        {
-            fControl.maxScale = value;
-        }
-
-
-	}//end class
+		
+	        public function set minScale(value:Number):void 
+	        {
+	            fControl.minScale = value;
+	        }
+			public function get maxScale():Number { return fControl.maxScale; }
+	        public function set maxScale(value:Number):void 
+	        {
+	            fControl.maxScale = value;
+	        }
+	
+	
+		}//end class
 
 }//end package
