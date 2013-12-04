@@ -82,10 +82,10 @@ public function targetToTarget(trgO:Sprite,trg:Sprite):void
 public function zoomToTarget(zoom:Number,durationZoom:Number):void
 
     cam.zoomToTarget( 5.2, 1.5 )
-    // Zoom in the curret position to scale 5.2 in 1.5 seconds
+    // Zoom in the current position to scale 5.2 in 1.5 seconds
 
 
 public function explore():void
 
     cam.explore();
-    //Move the camera on the current target then give control to the camera
+    //Move the camera on the current target position and then give the control to the camera
