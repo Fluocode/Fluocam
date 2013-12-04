@@ -288,7 +288,7 @@ package starling.extensions.fluocode{
 			tweenScale.animate("scaleX", zoom);
 			tweenScale.animate("scaleY", zoom);
 			
-			tweenAnimation.onComplete=finishCamZoom;
+			tweenScale.onComplete=finishCamZoom;
 			Starling.juggler.add(tweenScale);
 		}
 		
