@@ -27,7 +27,7 @@ Implementation
 
     starling.simulateMultitouch = true;
     
-    var cam:Fluocam = new Fluocam(world,stage.stageWidth,stage.stageHeight, false);
+    var cam:Fluocam = new Fluocam(world,480,320, false);
     addChild(cam);
     
 
