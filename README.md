@@ -57,7 +57,7 @@ Methods:
 public function working(sw:Boolean=true):void
 
     cam.working(true) // Turn on the camera
-    cam.working(true) // Turn off the camera 
+    cam.working(false) // Turn off the camera 
     //// The camera is working when since is add to the stage
     
 
