@@ -3,6 +3,8 @@ Fluocam
 
 This is a virtual camera developed in Action Script 3 (AS3) for Starling applications.
 
+Working example:
+https://github.com/Fluocode/Fluocam/releases/download/0.8/sample.zip
 
 
 Installation
